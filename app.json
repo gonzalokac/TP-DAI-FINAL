@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Templos Judíos",
+    "slug": "templos-judios-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#667eea"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#667eea"
+      }
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Esta app necesita acceso a la ubicación para mostrar templos cercanos."
+        }
+      ],
+    ]
+  }
+}
